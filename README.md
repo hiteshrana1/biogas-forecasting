@@ -1,38 +1,36 @@
-# 🌱 Biogas Production Forecasting
+# Biogas Production Forecasting
 
-##  Objective
-Predict daily biogas yield from anaerobic digestion using historical operational data. This project demonstrates time series forecasting and exploratory data analysis applied to bioenergy systems.
+## Overview
+This project explores time series forecasting for biogas production using synthetic data. The goal is to apply data science methods to bioenergy systems, supporting process optimization in anaerobic digestion.
 
 ## Data
-- **Source**: Synthetic data generated based on typical anaerobic digestion patterns
-- **Variables**: Biogas yield (m³/day), Temperature (°C), pH, Organic loading rate
-- **Period**: 365 days of daily observations
+- Synthetic dataset based on typical anaerobic digestion parameters.
+- 365 days of daily observations.
+- Variables: Biogas yield, Temperature, pH, Organic Loading Rate.
 
-##  Methods
-- Exploratory Data Analysis (EDA) with pandas, matplotlib, seaborn
-- Time series visualization and correlation analysis
-- Future: Machine learning models (Linear Regression, Random Forest, LSTM)
+## Methods
+- Exploratory Data Analysis (EDA) using Python (pandas, seaborn, matplotlib).
+- Time series visualization.
+- Correlation analysis between process parameters.
 
 ## Results
+### Time Series
+![Time Series](results/figures/biogas_time_series.png)
 
-### Time Series Analysis
-![Biogas Time Series](results/figures/biogas_time_series.png)
+### Correlations
+![Correlation](results/figures/correlation_heatmap.png)
 
-### Correlation Analysis  
-![Correlation Heatmap](results/figures/correlation_heatmap.png)
+### Distributions
+![Distributions](results/figures/distribution_plots.png)
 
-### Distribution Analysis
-![Distribution Plots](results/figures/distribution_plots.png)
+## Context
+This work aligns with my interest in Circular Economy and Bioeconomy.
 
-##  How to Run
+## Next Steps
+- Implement machine learning models (Linear Regression, Random Forest).
+- Test on real-world data if available.
 
-```bash
-# Clone the repository
-git clone https://github.com/hiteshrana1/biogas-forecasting.git
-cd biogas-forecasting
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the notebook
-jupyter notebook notebooks/01_eda.ipynb
+## Contact
+Hitesh Rana
+M.Sc. Environmental and Resource Management, BTU Cottbus  
+GitHub: github.com/hiteshrana1
